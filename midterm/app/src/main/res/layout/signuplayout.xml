@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".SignUpActivity"
+    android:background="@drawable/buttoncolor">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Registration"
+        android:textColor="@android:color/white"
+        android:layout_marginStart="130dp"
+        android:textSize="25sp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="name"
+        android:layout_marginTop="100dp"
+        android:textSize="20sp"
+        android:textColorHint="@android:color/black"
+        android:textStyle="italic"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="lastname"
+        android:layout_marginTop="150dp"
+        android:textSize="20sp"
+        android:textColorHint="@android:color/black"
+        android:textStyle="italic"/>
+    <EditText
+        android:id="@+id/getEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="email"
+        android:layout_marginTop="200dp"
+        android:textSize="20sp"
+        android:textColorHint="@android:color/black"
+        android:textStyle="italic"/>
+
+    <EditText
+        android:id="@+id/getPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="password"
+        android:layout_marginTop="250dp"
+        android:textSize="20sp"
+        android:textColorHint="@android:color/black"
+        android:textStyle="italic"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/signUpButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="sign up"
+        android:layout_marginTop="500dp"
+        android:layout_marginStart="150dp"
+        />
+
+
+
+</FrameLayout>

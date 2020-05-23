@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/background">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="log in"
+        android:layout_gravity="center"
+        android:layout_marginBottom="80dp"
+        android:textSize="40sp"
+        android:textStyle="normal"
+        android:textColor="@android:color/white"
+         />
+    <EditText
+        android:id="@+id/usernameInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        style="@android:style/Widget.EditText"
+        android:hint="username"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        />
+    <EditText
+        android:id="@+id/passwordInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        style="@android:style/Widget.EditText"
+        android:layout_marginTop="80dp"
+        android:hint="password"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        android:inputType="textPassword"
+        />
+
+    <Button
+        android:id="@+id/onButtonClick"
+        android:layout_width="157dp"
+        android:layout_height="51dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="140dp"
+        android:textSize="20sp"
+        android:background="@drawable/buttoncolor"
+        android:text="log in"
+        />
+    <Button
+        android:id="@+id/doNotHaveAccButton"
+        android:layout_width="157dp"
+        android:layout_height="51dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="250dp"
+        android:textSize="20sp"
+        android:background="@android:color/holo_purple"
+        android:text="Don't have account"
+        />
+</FrameLayout>
