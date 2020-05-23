@@ -1,0 +1,2 @@
+rootProject.name='taks_3'
+include ':app'
