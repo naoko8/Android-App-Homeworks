@@ -1,6 +1,7 @@
-## შუალედური 1
+## Midterm 1
 
-### აპლიკაციის მიზანი და ფუნქციონალი
+### Application purpose and functionality
 
-ჩემი აპლიკაციის მიზანია, რომ ნახოთ "MARVEL"-ის კინოების სია მისი პერსონაჟებითა და რეჟისორებით.  
-აპლიკაციაშუ შესაძლებელია დარეგისტრირება და შემდგომ შესვლა ფაირბეიზ აუთენთიფიქეიშენის გამოყენებით. დარეგისტრირებისთანავე გადადიხარ ლოგინზე, საიდანაც შედიხარ უკვე სისტემაში. 
+The purpose of my application is to find out all "MARVEL" movies list with their actors and movie makers. 
+You can register and log in, I used firebase authentification. 
+After registration, you have to log in. Only after you can get to home page where you can play around.
