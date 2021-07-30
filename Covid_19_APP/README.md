@@ -1,13 +1,10 @@
-#ფინალური
->ჯგუფის წევრები: ნინო ფოცხიშვილი ჯონგ, თამაზ მასხარაშვილი
+#Final project
+>Nina Potskhishvili
 
->აპლიკაცია მომხმარებელს აწვდის სრულ ინფორმაციას Covid-19-ის შესახებ. შესაძლებელია ქვეყნების სიის ნახვა და  განახლებული გლობალური ინფორმაცია.
+>Application gives users all information about COVID-19. Also users can see list of countries and global information. 
 
->პროექტში გამოყენებული არის Splash Screen, რომელსაც ვხედავთ აპლიკაციის ჩატვირთვის მომენტში.
->აპლიკაციის ძირითადი ფუნქციონალისთვის გამოიყენება API.
->API-დან retrofit-ის საშუალებით მოგვაქვს ინფორმაცია.
->მისი საშუალებით მოვიპოვებთ დაავადება „კორონას“ შესახებ ინფორმაციას და შესაბამის სტატისტიკას ვაჩვენებთ recylerview-ში ქვეყნების მიხედვით.
->აპლიკაციაში ასევე ყურადღება დაეთმო მის დიზაინს.
-
->შეგვექმნა სხვადასხვა merge conflict-ები და ამ error-ების გასწორებას მოვუნდებოდით ძალიან დიდი ხანი და ამიტომაც გადავწყვიტეთ გაგვეკეთეინა ცოტა სხვანაირად:
->ნინამ გააკეთა splash screen, adapter, retrofit, თაზომ recyclerview და API. დიზაინზე ორივემ ერთად ვიმუშავეთ. 
+>In this project I used splash screen, which you can see at the moment of loading the application.
+>The API is used for the basic functionality of the application .
+>Retrofit is used to get data from API.
+>Relevant statistics are shown in the recylerview by country.
+>I also paid attention to its design.
